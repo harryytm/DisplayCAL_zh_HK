@@ -719,7 +719,7 @@
 "connection.fail": |-
   連線錯誤 (%s)
 "connection.fail.http": |-
-  HTTP 錯誤%s
+  HTTP 錯誤 %s
 "connection.waiting": |-
   正在等待連線於
 "continue": |-
@@ -1911,25 +1911,25 @@
 "profile.name": |-
   描述檔名稱
 "*profile.name.placeholders": |-
-  You may use the following placeholders in the profile name:
+  你可以在設定檔名稱使用以下的佔位符號：
   
-  %a	Abbreviated weekday name
-  %A	Full weekday name
-  %b	Abbreviated month name
-  %B	Full month name
-  %d	Day of the month
-  %H	Hour (24-hour clock)
-  %I	Hour (12-hour clock)
-  %j	Day of the year
+  %a	星期簡稱
+  %A	星期全名
+  %b	月份簡稱
+  %B	月份全名Full month name
+  %d	月份日子
+  %H	小時 (24-hour clock)
+  %I	小時 (12-hour clock)
+  %j	全年日子
   %m	Month
-  %M	Minute
+  %M	分鐘
   %p	AM/PM
-  %S	Second
-  %U	Week (Sunday as first day of the week)
-  %w	Weekday (sunday is 0)
-  %W	Week (Monday as first day of the week)
-  %y	Year without century
-  %Y	Year with century
+  %S	秒數
+  %U	週數 (星期日為每週第一天)
+  %w	週數 (星期日為 0)
+  %W	週數 (星期一為每週第一天)
+  %y	年份不包含年代
+  %Y	年份包含年代
 "profile.no_embedded_ti3": |-
   該描述檔不包含 Argyll 兼容的測量數據。
 "profile.no_vcgt": |-
