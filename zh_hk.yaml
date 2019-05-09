@@ -1407,7 +1407,7 @@
   <font weight='bold'>Rendering intent</font>
   If you have calibrated to a different whitepoint than the one mandated by the source colorspace, and want to use that for the 3D LUT instead, select “Relative colorimetric”. Otherwise, select “Absolute colorimetric with white point scaling” (white point scaling will prevent clipping in absolute colorimetric mode that could happen if the source colorspace whitepoint is outside of the display gamut). You also have the option to use a non-colorimetric rendering intent that may compress or expand the source colorspace to fit within the display gamut (not recommended when colorimetric accuracy is required).
 "info.calibration_settings": |-
-  <font weight='bold'>校正</font>是以<font weight='bold'>互動地調校顯示器</font>的方法以達到所選擇的白點及/或亮度，並選擇性地建立<font weight='bold'>1D 查找表校正曲線</font> (LUT = 查找表)
+  <font weight='bold'>校正</font>是以<font weight='bold'>互動地調校顯示器</font>的方法以達到所選擇的白點及/或亮度並可選擇性地建立<font weight='bold'>1D 查找表校正曲線</font> (LUT = 查找表)
   以符合所選的色彩反應曲線及確保灰階的平衡。 注意校正時你只要調校顯示器及跳過建立 1D 查找表曲線，你需要設定
   色調響應曲線為 “與測量值相同”。 1D 查找表校正並<font weight='bold'>不可以</font> 用於全顯示器色彩校正，你需要建立 <font weight='bold'>ICC 裝置描述檔</font>或
   <font weight='bold'>3D 查找表</font>以及在支援的軟件上使用它們以達到目的。 雖然 1D 查找表校正會完整地建立特性描述和 3D 查找表校正。
