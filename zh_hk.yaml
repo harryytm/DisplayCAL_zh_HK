@@ -2602,7 +2602,7 @@
 "whitepoint.visual_editor.display_changed.warning": |-
   注意: 題示器的設定值已經變更而且圖像化的白點編輯器將不能正確還原顯示器設定檔。 請在關閉編輯器之後小心檢查顯示器設定檔的關聯然後重新執行 DisplayCAL。
 "whitepoint.xy": |-
-  色度坐標
+  色度坐標 
 "*window.title": |-
   DisplayCAL
 "windows.version.unsupported": |-
