@@ -1910,24 +1910,24 @@
   讓作業系統處理和載入顯示器校正(低質素)
 "profile.name": |-
   描述檔名稱
-"*profile.name.placeholders": |-
+"profile.name.placeholders": |-
   你可以在設定檔名稱使用以下的佔位符號：
   
   %a	星期簡稱
   %A	星期全名
   %b	月份簡稱
-  %B	月份全名Full month name
+  %B	月份全名
   %d	月份日子
-  %H	小時 (24-hour clock)
-  %I	小時 (12-hour clock)
+  %H	小時 (24小時制)
+  %I	小時 (12小時制)
   %j	全年日子
-  %m	Month
+  %m	月份
   %M	分鐘
   %p	AM/PM
   %S	秒數
-  %U	週數 (星期日為每週第一天)
+  %U	週數 (星期日為每週首日)
   %w	週數 (星期日為 0)
-  %W	週數 (星期一為每週第一天)
+  %W	週數 (星期一為每週首日)
   %y	年份不包含年代
   %Y	年份包含年代
 "profile.no_embedded_ti3": |-
@@ -2608,7 +2608,7 @@
 "windows.version.unsupported": |-
   不支援這個版本的 Windows。
 "windows_only": |-
-  只可在 Windows 執行
+  只適用於 Windows
 "working_dir": |-
   工作資料夾：
 "*xyz_scaling": |-
